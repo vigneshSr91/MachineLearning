@@ -1,0 +1,4 @@
+# round to 2 decimal places
+pd.set_option('precision', 2) 
+# Comma separators between 3 digit or larger numbers
+pd.options.display.float_format = '{:,.2f}.format 
